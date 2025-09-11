@@ -1,18 +1,19 @@
 {
   "name": "seckiob-server",
-  "version": "2.0.1",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Backend SECKIOB - Kiosques, Business, Paiements, Agents",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js",
-    "start": "NODE_ENV=production node index.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "morgan": "^1.10.0",
-    "uuid": "^9.0.1",
-    "stripe": "^14.0.0"
+    "morgan": "^1.10.0"
   }
 }
